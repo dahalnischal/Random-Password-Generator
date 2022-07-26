@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	user-select: none;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: white;
+
+}
+.container{
+	position: relative;
+	width: 450px;
+}
+.container h1
+{
+	font-size: 45px;
+	color: crimson;
+}
+.container input{
+	position:relative ;
+	height: 60px;
+	width: 100% ;
+	border: none;
+	margin: 15px 0 20px;
+	background: transparent;
+	outline: none;
+	padding:0 20px ;
+	font-size: 25px;
+	letter-spacing:4px ;
+	box-sizing: border-box;
+	border-radius: 8px;
+	color: #333;
+	box-shadow: -4px -4px 10px rgb(255, 255, 255 , 1),
+				inset 4px 4px 10px rgb(0, 0, 0 ,0.5),
+				inset -4px -4px 10px rgb(255, 255, 255 ,1),
+				 4px 4px 10px rgb(0, 0, 0 ,0.5);
+}
+.container input::placeholder{
+	letter-spacing: 0px;
+}
+.container #button{
+	position: relative;
+	color: blanchedalmond;
+	cursor: pointer;
+	background: tomato;
+	font-size: 24px;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 8px;
+}
+.container #button:active{
+	background: silver;
+}
